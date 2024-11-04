@@ -136,9 +136,10 @@ body {
 
 .post-back {
     background-color: #2B4D2D;
-    border-radius: 25px;
+    box-shadow: inset 2PX 2PX 5PX greenyellow, inset -2PX -2PX 5PX green;
+    border-radius: 12.5px;
     width: auto;
-    padding: 10px;
+    padding: 5px;
 }
 
 .ch-matter-box {
