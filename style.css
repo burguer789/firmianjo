@@ -55,7 +55,7 @@ body {
 .menu-subtitle {
     display: flex;
     background-color: #0B2A1D;
-    box-shadow: 0px 0px 15px greenyellow;
+    box-shadow: 0px 0px 15px greenyellow, inset 2px 2px 5px greenyellow, inset -2px -2px 5px green;
     border-radius: 100px;
     color: white;
     font-size: 10px;
