@@ -52,6 +52,21 @@ body {
     font-size: 50px;
 }
 
+.menu-subtitle {
+    display: flex;
+    background-color: #0B2A1D;
+    box-shadow: 0px 0px 15px greenyellow;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 500px;
+    margin: auto;   
+}
+
 .sail-box {
     display: flex;
     background-color: #0B2A1D;
@@ -64,6 +79,7 @@ body {
     box-shadow: 0px 0px 10px greenyellow;
     justify-content: center;
     align-items: center;
+    margin-bottom: 75px;           /*OBS: Espaçamento a baixo da caixa de navegação*/
 }
 
 .sail-box .sail-items {
@@ -102,6 +118,28 @@ body {
 
 /*Menu*/
 
+.cx-post-box {
+    display: flex;
+    background-color: #0B2A1D;
+    box-shadow: 0px 0px 10px greenyellow;
+    color: white;
+    font-size: 25px;
+    width: auto;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 75px 100px 100px 100px;
+    padding: 10px;
+    gap: 100px;
+}
+
+.post-back {
+    background-color: #2B4D2D;
+    border-radius: 25px;
+    width: auto;
+    padding: 10px;
+}
 
 .ch-matter-box {
     display: flex;
@@ -175,11 +213,10 @@ body {
     background-color: black;
     box-shadow: 0px 0px 25px 10px black, inset 0px 0px 5px white;
     color: white;
-    text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     width: 150px;
     height: 150px;
-    padding: 50px;
+    padding: 40px;
     border-radius: 100%;
 }
 
@@ -213,11 +250,17 @@ body {
         gap: 50px;
     }
 
-
-    
     .go-button{
         justify-content: center;
         width: 200px;
+    }
+
+    .cx-post-box {
+        margin: 25px;
+        height: auto;
+        padding: 30px;
+        flex-direction: column;
+        gap: 50px;
     }
 }
 
