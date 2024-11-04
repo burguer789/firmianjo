@@ -263,6 +263,10 @@ body {
         flex-direction: column;
         gap: 50px;
     }
+
+    .menu-subtitle {
+        font-size: 10px;
+    }
 }
 
 /*Mobile*/
